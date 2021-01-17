@@ -21,7 +21,7 @@ $query = "INSERT INTO users (username,name,phone,emailid,password) VALUES ('$use
 $data = mysqli_query ($con,$query) or die(mysqli_error($con));
 if($data) echo "YOUR REGISTRATION IS COMPLETED...";
 
-else echo "Unknown Error!";
+else echo "Something must have gone wrong!";
 
 }
 ?>
